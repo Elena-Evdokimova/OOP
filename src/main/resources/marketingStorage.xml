@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <advertising>
+        <advertising id="0" agentID="1" broadcast="broadcast 0" customer="customer 0">
+            <date>2020-12-18</date>
+            <duration>1</duration>
+            <broadcast>
+                <name>broadcast 0</name>
+                <priority>10</priority>
+                <minuteCost>100</minuteCost>
+            </broadcast>
+            <customer>
+                <bankRequisites>0100-0200-0300-0400</bankRequisites>
+                <contactPerson>some person 0</contactPerson>
+                <name>customer 0</name>
+                <phone>some phone number 0</phone>
+            </customer>
+        </advertising>
+        <advertising id="1" broadcast="broadcast 1" customer="customer 1">
+            <date>2020-12-18</date>
+            <duration>2</duration>
+            <broadcast>
+                <name>broadcast 1</name>
+                <priority>20</priority>
+                <minuteCost>200</minuteCost>
+            </broadcast>
+            <customer>
+                <bankRequisites>0101-0201-0301-0401</bankRequisites>
+                <contactPerson>some person 1</contactPerson>
+                <name>customer 1</name>
+                <phone>some phone number 1</phone>
+            </customer>
+        </advertising>
+        <advertising id="2" agentID="1" broadcast="broadcast 2" customer="customer 2">
+            <date>2020-12-18</date>
+            <duration>3</duration>
+            <broadcast>
+                <name>broadcast 2</name>
+                <priority>30</priority>
+                <minuteCost>300</minuteCost>
+            </broadcast>
+            <customer>
+                <bankRequisites>0102-0202-0302-0402</bankRequisites>
+                <contactPerson>some person 2</contactPerson>
+                <name>customer 2</name>
+                <phone>some phone number 2</phone>
+            </customer>
+        </advertising>
+    </advertising>
+    <agent>
+        <agent>
+            <payment>50</payment>
+        </agent>
+        <agent>
+            <payment>100</payment>
+            <advertising>
+                <advertising id="0" agentID="1" broadcast="broadcast 0" customer="customer 0">
+                    <date>2020-12-18</date>
+                    <duration>1</duration>
+                    <broadcast>
+                        <name>broadcast 0</name>
+                        <priority>10</priority>
+                        <minuteCost>100</minuteCost>
+                    </broadcast>
+                    <customer>
+                        <bankRequisites>0100-0200-0300-0400</bankRequisites>
+                        <contactPerson>some person 0</contactPerson>
+                        <name>customer 0</name>
+                        <phone>some phone number 0</phone>
+                    </customer>
+                </advertising>
+                <advertising id="2" agentID="1" broadcast="broadcast 2" customer="customer 2">
+                    <date>2020-12-18</date>
+                    <duration>3</duration>
+                    <broadcast>
+                        <name>broadcast 2</name>
+                        <priority>30</priority>
+                        <minuteCost>300</minuteCost>
+                    </broadcast>
+                    <customer>
+                        <bankRequisites>0102-0202-0302-0402</bankRequisites>
+                        <contactPerson>some person 2</contactPerson>
+                        <name>customer 2</name>
+                        <phone>some phone number 2</phone>
+                    </customer>
+                </advertising>
+            </advertising>
+        </agent>
+        <agent>
+            <payment>150</payment>
+        </agent>
+    </agent>
+</root>
